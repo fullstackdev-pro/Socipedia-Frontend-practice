@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
-import { useNavigate } from "react-router-dom";
 import Form from './Form'
 
 function Login(props) {
