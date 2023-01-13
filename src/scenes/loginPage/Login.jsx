@@ -5,7 +5,6 @@ import Form from './Form'
 
 function Login(props) {
   const isNonMobileScreens = useMediaQuery("(min-width: 1000px)");
-  const navigate = useNavigate();
   const theme = useTheme();
 
   return (
